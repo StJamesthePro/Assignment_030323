@@ -19,24 +19,38 @@ body {
 
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (max-width: 999px) {
+    body {
+        background-color: green;
+
+        background: url(https://w0.peakpx.com/wallpaper/144/132/HD-wallpaper-fullmetal-alchemist-edward-alphonse-edward-fullmetal-alchemist-anime-alphonse-thumbnail.jpg) no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .an_item {
+        color: purple;
+        background-color: orangered;
+
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
     body {
         background-color: blue;
 
 
-        background-image: url("https://d.newsweek.com/en/full/1955557/attack-titan.jpg?w=1600&h=1200&q=88&f=f8413d10f4fdc9f8f7be5a1f82432fa2");
+        background: url("https://d.newsweek.com/en/full/1955557/attack-titan.jpg?w=1600&h=1200&q=88&f=f8413d10f4fdc9f8f7be5a1f82432fa2") no-repeat center fixed;
+        background-size: cover;
+
 
     }
 
     .an_item {
         color: crimson;
-        text-decoration-color: aquamarine;
     }
 
     .yetAnotherOne {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         color: orangered;
         font-size: larger;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
