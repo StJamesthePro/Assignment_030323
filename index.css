@@ -1,28 +1,51 @@
 body {
-    background-color: blue;
+    background-color: red;
 
-
-    background-image: url("https://d.newsweek.com/en/full/1955557/attack-titan.jpg?w=1600&h=1200&q=88&f=f8413d10f4fdc9f8f7be5a1f82432fa2");
-
+    background-image: url(https://i.pinimg.com/originals/9e/bc/9d/9ebc9d950d20afd9fe30d6dd7b6b32e8.jpg);
 }
 
 .an_item {
-    color: crimson;
-    text-decoration-color: aquamarine;
+    color: blue;
 }
 
 .yetAnotherOne {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: orangered;
-    font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap-reverse;
 }
 
 .anotherone {
-    flex: content;
-    color: whitesmoke;
-    font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: medium;
+
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        background-color: blue;
+
+
+        background-image: url("https://d.newsweek.com/en/full/1955557/attack-titan.jpg?w=1600&h=1200&q=88&f=f8413d10f4fdc9f8f7be5a1f82432fa2");
+
+    }
+
+    .an_item {
+        color: crimson;
+        text-decoration-color: aquamarine;
+    }
+
+    .yetAnotherOne {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: orangered;
+        font-size: larger;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .anotherone {
+        flex: content;
+        color: whitesmoke;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 }
